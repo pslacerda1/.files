@@ -42,6 +42,20 @@ source $ZSH/oh-my-zsh.sh
 
 #
 ##
+## Utils
+##
+#
+pytest() {
+    python -m pytest --color=yes "$@"
+}
+
+L() {
+    less -FXR
+}
+
+
+#
+##
 ## Shell configuration
 ##
 #
